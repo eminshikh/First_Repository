@@ -4,5 +4,20 @@ body {
 }
 
 #demo h1 {
-  color: #792727;
+  width: 500px;
+}
+#demo .box {
+  position: relative;
+}
+#demo .box .minibox {
+  background-color: #da4782;
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+  color: white;
+  padding: 10px;
+}
+#demo .box .move {
+  position: fixed;
+  right: 0;
 }/*# sourceMappingURL=style.css.map */
